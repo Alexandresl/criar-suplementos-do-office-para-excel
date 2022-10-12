@@ -2,6 +2,8 @@
 	- [Guia do iniciante](#guia-do-iniciante)
 	- [Etapa 0: Pré-requisitos](#etapa-0-pré-requisitos)
 	- [Etapa 1: Comece com os fundamento](#etapa-1-comece-com-os-fundamento)
+		- [Visão Geral da Plataforma de Suplementos Office](#visão-geral-da-plataforma-de-suplementos-office)
+		- [Desenvolva Suplementos do Office](#desenvolva-suplementos-do-office)
 
 # Criar suplementos do Office
 
@@ -19,7 +21,10 @@ A principal linguagem de programação que você usará na criação de Suplemen
 
 Sabemos que você está ansioso para começar a codificar, mas há algumas coisas sobre os *Suplementos do Office* que você deve ler antes de abrir o IDE ou o editor de código.
 
-- [Visão Geral da plataforma de Suplementos Office:](https://learn.microsoft.com/pt-br/office/dev/add-ins/overview/office-add-ins): Descubra o que são os suplementos da Web do Office e como eles diferem das formas mais antigas de estender o Office, Como os suplementos VSTO.
-- [Desenvolva suplemsntos do Office:](https://learn.microsoft.com/pt-br/office/dev/add-ins/develop/develop-overview) Obtenha uma visão geral do desenvolvimento e ciclo de vida do Suplemento do Office, incluindo as ferramentas, criando um suplemento na Interface do Usuário e usando APIs de JavaScript para interagir com o documento do Office.
+- [Visão Geral da Plataforma de Suplementos Office:](https://learn.microsoft.com/pt-br/office/dev/add-ins/overview/office-add-ins): Descubra o que são os suplementos da Web do Office e como eles diferem das formas mais antigas de estender o Office, Como os suplementos VSTO.
+- [Desenvolva Suplemsntos do Office:](https://learn.microsoft.com/pt-br/office/dev/add-ins/develop/develop-overview) Obtenha uma visão geral do desenvolvimento e ciclo de vida do Suplemento do Office, incluindo as ferramentas, criando um suplemento na Interface do Usuário e usando APIs de JavaScript para interagir com o documento do Office.
 
 Existem muitos links antigos nesses artigos, mas se você é iniciante nos suplemtnos do Office, recomendamos que você volte aqui quando os tiver lido e continue na próxima seção.
+
+### [Visão Geral da Plataforma de Suplementos Office](visao-geral-da-plataforma-de-suplementos-office.md)
+### [Desenvolva Suplementos do Office](desenvolva-suplementos-do-office.md)
