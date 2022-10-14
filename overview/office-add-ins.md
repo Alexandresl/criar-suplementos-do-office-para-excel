@@ -1,3 +1,9 @@
+- [Visão geral da plataforma de suplementos do Office](#visão-geral-da-plataforma-de-suplementos-do-office)
+- [Quais são as diferenças entre os suplementos do Office e os suplementos de COM e VSTO?](#quais-são-as-diferenças-entre-os-suplementos-do-office-e-os-suplementos-de-com-e-vsto)
+- [Componentes de um suplemento do Office](#componentes-de-um-suplemento-do-office)
+	- [Manifesto](#manifesto)
+	- [Aplicativo Web](#aplicativo-web)
+
 # Visão geral da plataforma de suplementos do Office
 
 [Referência Externa](https://learn.microsoft.com/pt-br/office/dev/add-ins/overview/office-add-ins)
@@ -24,3 +30,23 @@ Os suplementos do Office oferecem as seguintes vantagens em relação aos suplem
 - Implantação e distribuição centralizadas. Os administradores podem implantar suplementos do Office centralmente em uma organização.
 - Acesso fácil através da AppSource. Você pode disponibilizar sua solução para um público amplo ao enviá-la para o AppSource.
 - Com base na tecnologia da Internet padrão. Você pode usar qualquer biblioteca que gosta para criar suplementos do Office.
+
+# Componentes de um suplemento do Office
+
+Um suplemento do Office inclui dois componentes básicos: um arquivo de manifesto XML e seu próprio aplicativo Web. O manifesto define várias configurações, incluindo como o suplemento é integrado a clientes do Office. O aplicativo Web deve ser hospedado em um servidor Web ou serviço de hospedagem na Web, como o Microsoft Azure.
+
+## Manifesto
+
+O manifesto é um arquivo XML que sepecifica configurações e recursos do suplemento, como os seguintes:
+
+- O nome de exibição, a descrição, a ID, a versão e a localidade padrão do suplemento.
+- Como o suplemento se integra ao Office.
+- O nível de permmissão e os requisitos de acesso a dados para o suplemento
+
+## Aplicativo Web
+
+O suplemento do Office mais básico consiste em uma página HTML estática que é exibida dentro de um aplicativo do Office, mas não interage com o documento do Office nem com qualquer outro recurso de Internet. No entanto, para criar uma experiência que interaja com os documentos do Office ou permita que o usuário interaja com os recursos online de um aplicativo cliente do Office, você pode usar qualquer tecnologia, tanto do lado do cliente coo do servidor, a qual ser provedor de hospedagem dá suporte (como ASP.NET, PHP ou Node.js). Para interagir com clientes e documentos do Office,, você usa as APIs Office.js e JavaScript.
+
+[Componentes de um suplemento Hello World.](../assets/images/about-addins-componentshelloworldoffice.png)
+
+festo do suplemento.
