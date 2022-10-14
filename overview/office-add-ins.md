@@ -3,6 +3,7 @@
 - [Componentes de um suplemento do Office](#componentes-de-um-suplemento-do-office)
 	- [Manifesto](#manifesto)
 	- [Aplicativo Web](#aplicativo-web)
+- [Estender os clientes do Office e interagir com eles](#estender-os-clientes-do-office-e-interagir-com-eles)
 
 # Visão geral da plataforma de suplementos do Office
 
@@ -49,3 +50,9 @@ O suplemento do Office mais básico consiste em uma página HTML estática que �
 
 [Componentes de um suplemento Hello World.](../assets/images/about-addins-componentshelloworldoffice.png)
 
+# Estender os clientes do Office e interagir com eles
+
+Os suplementos do Office podem fazer o seguinte em um aplicativo cliente do Office.
+
+- Estender a funcionalidade (qualquer aplicativo do Office)
+- Criar novos objetos (Excel ou PowerPoint)
