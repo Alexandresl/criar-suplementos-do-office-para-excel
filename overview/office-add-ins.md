@@ -4,6 +4,7 @@
 	- [Manifesto](#manifesto)
 	- [Aplicativo Web](#aplicativo-web)
 - [Estender os clientes do Office e interagir com eles](#estender-os-clientes-do-office-e-interagir-com-eles)
+- [Estender a funcionalidade do Office](#estender-a-funcionalidade-do-office)
 
 # Visão geral da plataforma de suplementos do Office
 
@@ -56,3 +57,12 @@ Os suplementos do Office podem fazer o seguinte em um aplicativo cliente do Offi
 
 - Estender a funcionalidade (qualquer aplicativo do Office)
 - Criar novos objetos (Excel ou PowerPoint)
+
+# Estender a funcionalidade do Office
+
+Você pode adicionar novas funionalidades a aplicativos do Office por meio do seguinte:
+
+- Botões de faixa de opções e comandos de menu personalizados (coletivamente chamados "comandos de suplementos")
+- Painéis de tarefas inseríveis
+
+Painéis personalizados de interface do usuário e de tarefa são especificados no manifesto do suplemento.
