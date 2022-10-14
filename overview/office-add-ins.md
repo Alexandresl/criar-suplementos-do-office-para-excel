@@ -49,4 +49,3 @@ O suplemento do Office mais básico consiste em uma página HTML estática que �
 
 [Componentes de um suplemento Hello World.](../assets/images/about-addins-componentshelloworldoffice.png)
 
-festo do suplemento.
