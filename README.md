@@ -1,6 +1,8 @@
-- [Documentação de suplementos do Office Link](#documentação-de-suplementos-do-office-link)
+- [Documentação de suplementos do Office](#documentação-de-suplementos-do-office)
 
-# Documentação de suplementos do Office [Link](https://learn.microsoft.com/pt-br/office/dev/add-ins/)
+# Documentação de suplementos do Office 
+
+[Link Online](https://learn.microsoft.com/pt-br/office/dev/add-ins/)
 
 Use a plataforma suplementos do Office para criar soluções que estendem aplicativos do Office e interagem com conteúdo em documentos do Office e em mensagens de email do Outlook e itens de calendário. Com os suplentos do Office, você pode usar tecnologias da Web conhecidas, como *HTML*, *CSS* e *JavaScrip*, para criar soluções que podem ser executadas em Office na Web, Windows, Mac e dispositivos móveis.
 
