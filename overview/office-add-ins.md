@@ -11,6 +11,7 @@
 		- [Criar novos objetos nos documentos do Office](#criar-novos-objetos-nos-documentos-do-office)
 	- [APIs JavaScript para Office](#apis-javascript-para-office)
 	- [Próximas etapas](#próximas-etapas)
+	- [Confira também](#confira-também)
 
 # Visão geral da plataforma de suplementos do Office
 
@@ -106,3 +107,12 @@ As APIs JavaScript para Office contêm objetos e membros para a criação de sup
 ## Próximas etapas
 
 Para obter uma introdução mais detalhada sobre o desenvolvimento de suplementos do Office, confira [Desenvolver suplementos do Office](https://learn.microsoft.com/pt-br/office/dev/add-ins/develop/develop-overview)
+
+## Confira também
+
+- [Principais conceitos dos Suplementos do Office](https://learn.microsoft.com/pt-br/office/dev/add-ins/overview/core-concepts-office-add-ins)
+- [Desenvolver Suplementos do Office](https://learn.microsoft.com/pt-br/office/dev/add-ins/develop/develop-overview)
+- [Fazer o design de Suplementos do Office](https://learn.microsoft.com/pt-br/office/dev/add-ins/design/add-in-design)
+- [Testar e depurar Suplementos do Office](https://learn.microsoft.com/pt-br/office/dev/add-ins/testing/test-debug-office-add-ins)
+- [Publish Office Add-ins](https://learn.microsoft.com/pt-br/office/dev/add-ins/publish/publish)
+- [Saiba mais sobre o Programa para Desenvolvedores do Microsoft 365](https://developer.microsoft.com/microsoft-365/dev-program)
