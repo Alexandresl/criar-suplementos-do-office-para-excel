@@ -3,6 +3,7 @@
 		- [pré-requisitos](#pré-requisitos)
 		- [Criar o projeto do suplemento](#criar-o-projeto-do-suplemento)
 		- [Explore o projeto](#explore-o-projeto)
+		- [Experimente](#experimente)
 
 # Criar um suplemento do painel de tarefas do Excel
 
@@ -46,3 +47,33 @@ O projeto de suplemento que você criou com o gerador Yeoman contém um código 
 - O arquivo **./src/taskpane/taskpane.html** contém a marcação HTML do painel de tarefas.
 - O arquivo **./src/taskpane/taskpane.css** contém o CSS que é aplicado ao conteúdo no painel de tarefas.
 - O arquivo **./src/taskpane/taskpane.js** contém o código da API JavaScript do Office que facilita a interação entre o painel de tarefas e o aplicativo cliente do Office.
+
+### Experimente
+
+1. Navegue até a pasta raiz do projeto.
+
+```cd "My Office Add-in"```
+
+2. Conclua as etapas a seguir para iniciar o servidor da web local e fazer o sideload do seu suplemento.
+
+- **Observação**: Os Suplementos do Office devem usar HTTPS, e não HTTP, mesmo durante o desenvolvimento. Se você for solicitado a instalar um certificado após executar um dos seguintes comandos, aceite a solicitação para instalar o certificado que o gerador do Yeoman fornecer. Você também poder executar o prompt de comando ou terminal como administrador para que as alterações sejam feitas
+
+- Para testar o seu suplemento no Excel, execute o seguinte comando no diretório raiz do projeto. Isso inicia o servidor Web local e abre o Excel com seu suplemento carregado.
+
+```npm start```
+
+- Para testar o seu suplemento Excel em um navegador, execute o seguinte comando no diretório raiz do projeto. O servidor Web local é iniciado quando este comando é executado. Substitua "*{url}*" pelo URL de um documento do Excel no seu OneDrive ou uma biblioteca do SharePoint para qual você tenha permissões.
+
+```npm run start:web -- --document {url}```
+
+Se o suplemento não realizar o sideload no documento, realizar o sideload manual seguindo as instruç~eos nos [suplementos de sideload](https://learn.microsoft.com/pt-br/office/dev/add-ins/testing/sideload-office-add-ins-for-testing#manually-sideload-an-add-in-to-office-on-the-web) manualmente para Office na Web.
+
+3. No excel, escolha a guia **Página Inicial** e o botão **Mostrar Painel de Tarefas** na faixa de opções para brir o painel de tarefas do suplemento.
+
+![O menu da Página Inicial do Excel, com o botão Mostrar Painel de Tarefas destacado.](../assets/images/excel-quickstart-addin-3b.png)
+
+4. Selecione um interfalo de células na planilha.
+
+5. Na parte inferior do painel de tarefas, escolha o link **Executar** para definir a cor do intervalo selecionado como amarelo.
+
+![O painel de tarefas do suplemento aberto no Excel, com o botão Executar destacado no painel de tarefas do suplemento.](../assets/images/excel-quickstart-addin-3c.png)
