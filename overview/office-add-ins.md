@@ -7,6 +7,7 @@
 		- [Estender a funcionalidade do Office](#estender-a-funcionalidade-do-office)
 			- [Botões e comandos de menu personalizados](#botões-e-comandos-de-menu-personalizados)
 			- [Painéis de tarefas](#painéis-de-tarefas)
+		- [Estender a funcionalidade do Outlook](#estender-a-funcionalidade-do-outlook)
 
 # Visão geral da plataforma de suplementos do Office
 
@@ -80,3 +81,11 @@ Você pode adicionar itens de menu e botões da faixa de opç~eos personalizados
 Você pode usar painéis de tarefas, além dos comandos de suplemento, para permitir que os usuários interajam com sua solução. Os clientes que não dão suporte aos comandos de suplementos (Office 2013 e Office para iPad) executarão seu suplemento com um painel de tarefas. Os usuários iniciam os suplementos do painel de tarefas através do botão **Meus suplementos** na guia **inserir**.
 
 ![Usar painéis de tarefas, além dos comandos do suplemento.](../assets/images/about-addins-taskpane.png)
+
+### Estender a funcionalidade do Outlook
+
+Os suplementos do Outlook podem estender a faixa de opções do aplicativo do Office e também serem exibidos contextualmente ao lado de um item do Outlook quando você o exibe ou redige. Eles podem funcionar com um mensagem de email, uma solicitação de reunião, uma resposta de reunião, um cancelamento de reunião ou um compromisso quando um usuário estiver visualizando um item recebido, respondendo ou criando um novo item.
+
+Os sup.ementos do Outlook podem acessar informações contextuais do item como o endereço ou a ID de restreamento, usar esses dados para acessar informações adicionais no servidor e de serviços Web para criar experiências de usuário envolventes. Na maioria dos casos, um suplemento do Outlook é executado sem modificação no aplicativo cliente do Outlook para fornecer uma experiência perfeita na área de tragalho, na Web e em dispositivos móveis e tablet.
+
+Confira a visão geral dos suplementos do Outlook em [Visão geral dos suplementos do Outlook](https://learn.microsoft.com/pt-br/office/dev/add-ins/outlook/outlook-add-ins-overview)
