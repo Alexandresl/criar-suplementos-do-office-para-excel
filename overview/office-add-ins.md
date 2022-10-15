@@ -10,6 +10,7 @@
 		- [Estender a funcionalidade do Outlook](#estender-a-funcionalidade-do-outlook)
 		- [Criar novos objetos nos documentos do Office](#criar-novos-objetos-nos-documentos-do-office)
 	- [APIs JavaScript para Office](#apis-javascript-para-office)
+	- [Próximas etapas](#próximas-etapas)
 
 # Visão geral da plataforma de suplementos do Office
 
@@ -101,3 +102,7 @@ Você pode inserir objetos baseados na Web, chamados de suplementos de conteúdo
 ## APIs JavaScript para Office
 
 As APIs JavaScript para Office contêm objetos e membros para a criação de suplementos e a integração com conteúdos do Office e serviços Web. Existe um modelo de objeto comum compartilhado pelo Excel, Outlook, Word, PowerPoint, OneNote e Project. Também existem modelos de objetos específicos de aplicativo mais extensos para o Excel e o Word. Essas APIs fornecem acesso a objetos conhecido0s, como paráfrafos e pastas de trabalho, o que facilita a criação de um suplemento para um aplicativo específico.
+
+## Próximas etapas
+
+Para obter uma introdução mais detalhada sobre o desenvolvimento de suplementos do Office, confira [Desenvolver suplementos do Office](https://learn.microsoft.com/pt-br/office/dev/add-ins/develop/develop-overview)
