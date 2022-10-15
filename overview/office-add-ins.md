@@ -8,6 +8,7 @@
 			- [Botões e comandos de menu personalizados](#botões-e-comandos-de-menu-personalizados)
 			- [Painéis de tarefas](#painéis-de-tarefas)
 		- [Estender a funcionalidade do Outlook](#estender-a-funcionalidade-do-outlook)
+		- [Criar novos objetos nos documentos do Office](#criar-novos-objetos-nos-documentos-do-office)
 
 # Visão geral da plataforma de suplementos do Office
 
@@ -89,3 +90,9 @@ Os suplementos do Outlook podem estender a faixa de opções do aplicativo do Of
 Os sup.ementos do Outlook podem acessar informações contextuais do item como o endereço ou a ID de restreamento, usar esses dados para acessar informações adicionais no servidor e de serviços Web para criar experiências de usuário envolventes. Na maioria dos casos, um suplemento do Outlook é executado sem modificação no aplicativo cliente do Outlook para fornecer uma experiência perfeita na área de tragalho, na Web e em dispositivos móveis e tablet.
 
 Confira a visão geral dos suplementos do Outlook em [Visão geral dos suplementos do Outlook](https://learn.microsoft.com/pt-br/office/dev/add-ins/outlook/outlook-add-ins-overview)
+
+### Criar novos objetos nos documentos do Office
+
+Você pode inserir objetos baseados na Web, chamados de suplementos de conteúdo, em documentos do Excel e PowerPoint. Com os suplementos de conteúdo, você pode integrar visualizações de dados avançadas e baseadas na Web, mídia (como um player de vídeo do YouTube ou uma galeria de imagens) e outros tipos de conteúdo externo.
+
+![Inserir objetos baseados na Web chamados suplementos de conteúdo.](../assets/images/about-addins-contentaddin.png)
