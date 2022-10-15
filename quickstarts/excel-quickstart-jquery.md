@@ -4,6 +4,7 @@
 		- [Criar o projeto do suplemento](#criar-o-projeto-do-suplemento)
 		- [Explore o projeto](#explore-o-projeto)
 		- [Experimente](#experimente)
+		- [Próximas etapas](#próximas-etapas)
 
 # Criar um suplemento do painel de tarefas do Excel
 
@@ -77,3 +78,7 @@ Se o suplemento não realizar o sideload no documento, realizar o sideload manua
 5. Na parte inferior do painel de tarefas, escolha o link **Executar** para definir a cor do intervalo selecionado como amarelo.
 
 ![O painel de tarefas do suplemento aberto no Excel, com o botão Executar destacado no painel de tarefas do suplemento.](../assets/images/excel-quickstart-addin-3c.png)
+
+### Próximas etapas
+
+Parabéns, você criou com êxito um suplemento do painel de tarefas do excel! Em seguida, saiba mais sobre os recursos de um suplemento do Excel e crie um soplemento mais complexo seguindo o [tutorial do suplemento Excel](https://learn.microsoft.com/pt-br/office/dev/add-ins/tutorials/excel-tutorial).
